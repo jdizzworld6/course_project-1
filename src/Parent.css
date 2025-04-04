@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contentItems {
+    border: 3px solid blue;
+    min-width: 1200px;
+}
+
+.contentDisplay {
+    border: 3px solid blue;
+}
+
+
+.item {
+    width: 600px;
+    background-color: gray;
+    height: 250px;
+    margin: 10px;
+}
