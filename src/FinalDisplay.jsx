@@ -61,6 +61,11 @@ export default function FinalDisplay() {
     // Clears photos
     const clearPhotos = () => {
         setDisplayData([]);
+        setCountItems((prevCountItems) =>
+            prevCountItems.map((item) =>
+                item.type === "Final Display Selected" ? { ...item, count: 0 } : item
+            )
+        );
     }
 
     return <>

@@ -51,6 +51,7 @@ body {
     }
 
     #titleImage {
+        margin-top: 50px;
         margin-left: 100px;
         height: 400px;
 
