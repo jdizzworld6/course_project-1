@@ -1,5 +1,65 @@
-.container {
-    display: flex;
-    flex-direction: column;
+body {
+    background-image: url("src\background.jpg");
+    background-repeat: no-repeat;
+    background-color: rgba(244, 242, 242, 0.364);
+
+}
+
+@media (max-width: 1200px) {
+    #titleImage {
+        display: none;
+    }
+
+}
+
+@media (max-width: 780px) {
+
+    #barchart {
+        display: none;
+    }
+}
+
+@media (min-width: 801px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-template-rows: 100%;
+        gap: 10px;
+        height: 100vh;
+        padding: 30px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+
+    .right-nav {
+        margin-left: 20px;
+        border: solid 3px black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(247, 241, 251);
+
+    }
+
+    #title {
+        text-align: end;
+        margin-right: 130px;
+    }
+
+    #titleImage {
+        margin-left: 100px;
+        height: 400px;
+
+    }
+
+    .item-1 {
+        margin-top: 200px;
+    }
+
+
 
 }
