@@ -1,5 +1,4 @@
 body {
-    background-image: url("src\background.jpg");
     background-repeat: no-repeat;
     background-color: rgba(244, 242, 242, 0.364);
 
@@ -25,7 +24,7 @@ body {
         grid-template-columns: 3fr 1fr;
         grid-template-rows: 100%;
         gap: 10px;
-        height: 100vh;
+        height: auto;
         padding: 30px;
     }
 
